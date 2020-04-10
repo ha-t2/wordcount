@@ -6,3 +6,6 @@
 go build
 time ./wordcount hoge.txt
 ```
+
+# sample file
+https://drive.google.com/open?id=1RAktzf9RSDdoI9vxRhUyEsD_lsiwI6mu
