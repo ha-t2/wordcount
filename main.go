@@ -72,6 +72,6 @@ func printTop(counter map[string]int, n int) {
 	})
 
 	for i := 0; i < n && i < len(kvs); i++ {
-		fmt.Println(kvs[i].key)
+		fmt.Println(kvs[i].key, kvs[i].value)
 	}
 }
