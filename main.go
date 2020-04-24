@@ -42,14 +42,9 @@ func readAndCount(fileName string) map[string]int {
 		if isAlphabet(c) {
 			word += string(c)
 		} else if word != "" {
-			if _, ok := counter[word]; ok {
-				counter[word]++
-			} else {
-				counter[word] = 1
-			}
+			counter[word]++
 			word = ""
 		}
-
 	}
 
 	return counter
